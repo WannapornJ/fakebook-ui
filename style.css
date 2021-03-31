@@ -196,6 +196,7 @@ body {
   flex-direction: column;
   margin: 1rem;
   padding: 1rem;
+  background-color: #d5d5d5;
   border-top-left-radius: 1.8rem;
   border-top-right-radius: 1.8rem;
   border-bottom-left-radius: 1.8rem;
