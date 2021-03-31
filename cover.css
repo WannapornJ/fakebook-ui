@@ -1,0 +1,141 @@
+/* ------------- Cover ------------------- */
+.container-cover {
+
+    width: 100%;
+    height: auto;
+    background: linear-gradient(0deg, white, #4788da 80%);
+    text-align: center;
+    margin-bottom: 20px;
+  
+    
+  }
+
+.cover-item__container{
+    position: relative;
+    margin-bottom: 25px;
+
+    
+  }
+.cover-items {
+
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 4px;
+  }
+  .cover-items img {
+    min-width: 100%;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .cover-items-profile {
+    position: absolute;
+    left: 50%;
+    bottom: -5%;
+    
+  }
+  
+  .cover-items-profile img {
+    position: relative;
+    left: -50%;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border : white solid 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+  
+
+
+
+.name__container {
+    /* background-color: red; */
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+   
+    
+}
+
+.name__profile-name {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+.name__profile__codeName{
+    font-weight: 500;
+}
+.name__motto {
+    font-size : 19px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: slategrey;
+}
+
+.name__edit_button {
+    color :blue;
+
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+/* Navigate */
+
+.navigate__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 70%;
+    margin: auto;
+    padding: 10px 0px;
+    border-top: rgb(179, 179, 179) solid 0.5px;
+}
+
+.navigate__container__left {
+    /* background-color: blue; */
+}
+.navigate__container__left a {
+    font-size: 14px;
+    font-weight: 800;
+    color: grey;
+    padding: 5px 7.5px;
+    margin: 2px 2px 0px 0px;
+    /* background-color: red; */
+}
+
+.navigate__container__right {
+    /* background-color: blue; */
+}
+
+.navigate__container__right a {
+    font-size: 14px;
+    font-weight: 800;
+    color: black;
+    padding: 5px 20px;
+    margin: 0px 10px 0px 0px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 4px;
+}
+
+.navigate__container__right i {
+    font-size: 14px;
+    font-weight: 800;
+    color: black;
+    padding: 6px 10px;
+    margin: 0px 10px 0px 0px;
+    background-color :rgb(206, 206, 206);
+    border-radius: 4px;
+}

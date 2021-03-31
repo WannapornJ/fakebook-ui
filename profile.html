@@ -1,63 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,300&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-        crossorigin="anonymous" />
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="profile.css" />
+    <link rel="stylesheet" href="cover.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
-
+  <body>
     <!-- navbar -->
     <div class="navbar-container">
-        <div class="navbar-facebook-logo-search">
-            <i class="fab fa-facebook"></i>
-            <input type="text" placeholder="ค้นหาบน Facebook">
-        </div>
+      <div class="navbar-facebook-logo-search">
+        <i class="fab fa-facebook"></i>
+        <input type="text" placeholder="ค้นหาบน Facebook" />
+      </div>
 
-        <div class="navbar-navigation-icon-head">
-            <i class="fas fa-home"></i>
-            <i class="fas fa-user-friends"></i>
-            <i class="fas fa-users"></i>
-        </div>
+      <div class="navbar-navigation-icon-head">
+        <i class="fas fa-home"></i>
+        <i class="fas fa-user-friends"></i>
+        <i class="fas fa-users"></i>
+      </div>
 
-        <div class="navbar-messenger">
-            <div class="search-friend">
-                <h3>ค้นหาเพื่อน</h3>
-            </div>
-            <i class="fas fa-plus-circle"></i>
-            <i class="fab fa-facebook-messenger"></i>
-            <i class="fas fa-bell"></i>
-            <img src="./img/profile/1.jfif" class="nav-profile">
-        </div>
+      <div class="navbar-messenger">
+        <i class="fas fa-plus-circle"></i>
+        <i class="fab fa-facebook-messenger"></i>
+        <i class="fas fa-bell"></i>
+        <img src="./img/profile/1.jfif" class="nav-profile" />
+      </div>
     </div>
 
     <div class="container-cover">
+      <div class="cover-item__container">
         <div class="cover-items">
-            <img
-                src="https://images.unsplash.com/photo-1508739773434-c26b3d09e071?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+          <img
+            src="https://images.unsplash.com/photo-1508739773434-c26b3d09e071?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+          />
         </div>
+
         <div class="cover-items-profile">
-            <img src="./img/profile/4.jfif">
+          <img src="./img/profile/4.jfif" />
         </div>
+      </div>
+      <div class="name__container">
+        <h1 class="name__profile-name">
+          CodeCamp8 Student
+          <span class="name__profile__codeName">(Bug creator)</span>
+        </h1>
+        <h2 class="name__motto">I'm programmer.I've no life</h2>
+        <a href="#" class="name__edit_button">แก้ไข</a>
+      </div>
+      <div class="navigate__container">
+        <div class="navigate__container__left">
+          <a href="#">โพสต์</a>
+          <a href="#">เกี่ยวกับ</a>
+          <a href="#">เพื่อน 2469</a>
+          <a href="#">รูปภาพ</a>
+          <a href="#">เพิ่มเติม</a>
+        </div>
+        <div class="navigate__container__right">
+          <a>แก้ไขโปรไฟล์</a>
+          <i class="far fa-eye"></i>
+          <i class="fas fa-search"></i>
+          <a>...</a>
+        </div>
+      </div>
     </div>
 
+    <div class="post__section__container">
+      <!-- กล่องซ้าย -->
+      <div class="post__section__container__left">
+        <div class="introduce">
+          <h1>แนะนำตัว</h1>
+          <h2><i class="fas fa-user-graduate"></i> Student at CodeCamp</h2>
+          <a href="#">แก้ไขรายละเอียด</a>
+          <a href="#">แก้ไขงานอดิเรก</a>
+          <a href="#">เพื่มเนื้อหาที่แนะนำ</a>
+        </div>
+        <div class="picture">
+          <h1>รูปภาพ</h1>
+          <div class="grid__3pic__container">
+              <img src="img/profile/4.jfif">
+              <img src="img/profile/4.jfif">
+              <img src="img/profile/4.jfif">
+              <img src="img/profile/4.jfif">
+              <img src="img/profile/4.jfif">
+              <img src="img/profile/4.jfif">
+              <img src="img/profile/4.jfif">
+              <img src="img/profile/4.jfif">
+              <img src="img/profile/4.jfif">
+          </div>
+        </div>
+        <div class="friend">
+          <h1>เพื่อน</h1>
+          <h2 style="color:gray;">เพื่อน 2049 คน</h2>
+          <div class="grid__3pic__container">
+            <img src="img/profile/4.jfif">
+            <img src="img/profile/4.jfif">
+            <img src="img/profile/4.jfif">
+            <img src="img/profile/4.jfif">
+            <img src="img/profile/4.jfif">
+            <img src="img/profile/4.jfif">
+            <img src="img/profile/4.jfif">
+            <img src="img/profile/4.jfif">
+            <img src="img/profile/4.jfif">
+        </div>
+        </div>
+      </div>
+      
+      <!-- กล่องขวา -->
+      <div class="post__section__container__right">
+        <div class="post__card">
+          <div class="card-container-post">
+            <img
+              src="./img/profile/5.jfif"
+              class="card-container-story-profile"
+            />
+            <div class="post">
+              <input class="post_input" placeholder="คุณกำลังคิดอะไรอยู่"></input>
+            </div>
+          </div>
+          <div class="card-container-post-feel">
+            <ul class="card-container-post-feel-list">
+              <li>
+                <i class="fas fa-video fa-video-customize-color"></i
+                >ถ่ายทอดวีดีโอของคุณ
+              </li>
+              <li>
+                <i class="fas fa-file-image fa-file-image-customize-color"></i
+                >รูปภาพ/วีดีโอ
+              </li>
+              <li>
+                <i class="far fa-smile fa-smile-customize-color"></i
+                >ความรู้สึก
+              </li>
+            </ul>
+          </div>
+        </div>
 
+        <div class="post__status">
+          <div class="post__status__detail">
+            <img
+              src="./img/profile/5.jfif"
+              class="card-container-story-profile"
+            />
+            <div>
+              <h2>Tom cruise</h2>
+              <p>30 มีนาคม เวลา 21:40 น.</p>
+            </div>
+            
+          </div>
+          <div class="post__status__text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam qui corrupti iste alias necessitatibus sapiente nostrum dolor modi velit fugiat, repellendus minima error? Laudantium provident explicabo fugiat, similique illo minus!</p>
+          </div>
+          <div class="post__status__pic">
+            <img  class="img-post"
+            src="https://images.unsplash.com/photo-1614916198414-5bc7470beb5e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=337&q=80">
+          </div>
+        </div>
 
-
-
-
-
-
-
-</body>
-
+        <div class="post__status">
+          <div class="post__status__detail">
+            <img
+              src="./img/profile/5.jfif"
+              class="card-container-story-profile"
+            />
+            <div>
+              <h2>Tom cruise</h2>
+              <p>30 มีนาคม เวลา 21:40 น.</p>
+            </div>
+            
+          </div>
+          <div class="post__status__text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam qui corrupti iste alias necessitatibus sapiente nostrum dolor modi velit fugiat, repellendus minima error? Laudantium provident explicabo fugiat, similique illo minus!</p>
+          </div>
+          <div class="post__status__pic">
+            <img  class="img-post"
+            src="https://images.unsplash.com/photo-1614916198414-5bc7470beb5e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=337&q=80">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

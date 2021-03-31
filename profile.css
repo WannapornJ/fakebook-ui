@@ -1,0 +1,94 @@
+/* กล่องซ้าย */
+.post__section__container__left {
+    /* background-color: red; */
+}
+
+.introduce, .picture, .friend{
+    padding: 20px;
+    margin: 0px 10px 20px 10px;
+    border-radius: 8px;
+    background-color:#f3f3f3;
+    line-height: 2;
+
+}
+.introduce h2{
+    margin-bottom: 10px;
+}
+.introduce a{
+   display: block;
+   padding: 7px;
+   margin-bottom: 10px;
+   background-color: rgb(223, 223, 223);
+   border-radius: 8px;
+   font-size: 12px;
+   font-weight: 700;
+   color: black;
+   text-align: center;
+}
+
+.grid__3pic__container{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-gap:6px;
+    
+}
+.grid__3pic__container img{
+    width: 100%;
+    height: 90px;
+    /* background-color: red; */
+    border-radius: 4px;
+}
+
+
+
+/* กล่องขวา */
+.post__section__container {
+    display: grid;
+    grid-template-columns: 38% 60%;
+    grid-column-gap: 2%;
+    width: 70%;
+    margin: auto;
+}
+.post__section__container__right {
+    /* background-color: blue; */
+}
+
+.post__card {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 15rem;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    margin: auto;
+  }
+
+  
+  .post__status {
+      width: 95%;
+      margin: 20px auto 20px auto;
+      padding: 10px auto 10px auto;
+      background-color:#f3f3f3;
+      line-height: 1.8;
+      border-radius: 8px;
+  }
+  .post__status__detail {
+      display: flex;
+      padding: 20px 10px 0px 20px;
+  }
+
+  .post__status__detail img {
+    margin-right : 20px;
+} 
+
+.post__status__text {
+    padding: 10px 20px;
+    margin-bottom: 5px;
+}
+
+.post__status__pic{
+    padding: 20px;
+    height: 600px;
+   
+}
+
